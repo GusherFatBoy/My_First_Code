@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-         <title>Sussy Among Us</title>
-         <link rel="icon" href="images/among-us.gif" type="image/gif" >
+        <title>Sussy Among Us</title>
+        <link rel="icon" href="images/among-us.gif" type="image/gif" >
     </head>
     <body>
+        <audio id="myAudio">
+            <source src="Imposter.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <script>
+            var audio = document.getElementById("myAudio"); 
+            
+            function playAudio() { 
+                audio.play(); 
+            } 
+            
+            function pauseAudio() {
+                audio.pause(); 
+            } 
+            </script>
+            
         
 
         
@@ -34,7 +51,7 @@
         <img alt="RickRoll" src="amongus.jpg"
         width="400" height="400">
         </a>
-        <button id="sus">SUSSY AMONG US BUTTON</button>
+        <img src="images/SusImposter.jpg" button onclick="playAudio()" type="button">Play Audio</button>>
         <img src="Baby.jpg" alt="Baby.png" width="500" height="600">
         <img src="pokedingle.jpg" alt="pokedingle.jpg" width="800" height="880">
     </div>  
