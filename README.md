@@ -13,7 +13,7 @@ Gusher– [@Twitter](https://twitter.com/[UserNamehere]) – example.mail@gmail.
 
 Distributed under the GNU license. See ``LICENSE`` for more information.
 
-[https://github.com/Aaron560](https://github.com/Aaron560)
+[https://github.com/Aaron560](https://github.com/Aaron560) &&
 [https://github.com/GusherFatBoy](https://github.com/GusherFatBoy)
 
 ## Contributing
