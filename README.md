@@ -9,7 +9,7 @@ v1.0.0
 ## Meta
 
 Aaron– [@Twitter](https://twitter.com/Blinker11696) – aaron.ashcraft7@gmail.com && 
-Gusher– [@Twitter](https://twitter.com/[UserNamehere]) – example.mail@gmail.com
+Gusher– [@Twitter](https://twitter.com/FatGusher) – example.mail@gmail.com
 
 Distributed under the GNU license. See ``LICENSE`` for more information.
 

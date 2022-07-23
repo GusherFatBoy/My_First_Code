@@ -16,22 +16,22 @@
                         <form action="" method="post">
                             <div class="form-group">
                                 <label>Name</label>
-                                <input type="text" name="name" placeholder="Name" class="form-control" required>
+                                <input id="username" type="text" name="name" placeholder="Name" class="form-control" required>
                             </div>
-                            <div class="form-group">
-                                <label>Email</label>
-                                <input  type="email" name="email" placeholder="Email" class="form-control" required>
-                            </div>
+                            <!--<div class="form-group">-->
+                            <!--    <label>Email</label>-->
+                            <!--    <input id="email" type="email" name="email" placeholder="Email" class="form-control" required>-->
+                            <!--</div>-->
                             <div class="form-group">
                                 <label>Password</label>
-                                <input  type="password" name="password" placeholder="password" class="form-control" required>
+                                <input id="password" type="password" name="password" placeholder="password" class="form-control" required>
                             </div>
+                            <!-- <div class="form-group">-->
+                            <!--     <label>Confirm Password</label>-->
+                            <!--     <input  type="password" name="confirm_password" class="form-control" required>-->
+                            <!-- </div>-->
                             <div class="form-group">
-                                <label>Confirm Password</label>
-                                <input  type="password" name="confirm_password" class="form-control" required>
-                            </div>
-                            <div class="form-group">
-                                <input  type="submit" name="submit" class="btn btn-primary" value="Submit">
+                                <input id="Submit" type="submit" name="submit" class="btn btn-primary" value="Submit" onClick="check()"/> 
                             </div>
                             <p>
                                 Already have an account? <a href="Login.html">Login Here</a>
@@ -40,4 +40,7 @@
                         </form>
                     </div>
                 </div>
+        <script type="text/javascript" src="jq.uery-111.3.min.js"></script>
+        <script type="text/javascript" language="javascript" src="Login.js"></script>
+
         </body>
