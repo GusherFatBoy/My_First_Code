@@ -13,7 +13,7 @@ function check() {
 
     // stored data from the register-form
     var storedName = localStorage.getItem('name');
-    var storedPw = localStorage.getItem('pw');
+    var storedPw = localStorage.getItem('password');
 
     // entered data from the login-form
     var userName = document.getElementById('userName');
